@@ -283,127 +283,79 @@ export default {
         },
         {
           "type": "dropdown",
-          "to": "/vega",
-          "label": "Vega",
+          "to": "/backtest",
+          "label": "Backtest",
           "position": "left",
           "className": "center-navbar",
           "items": [
             {
-              "to": "/vega/volatility_foundations",
-              "label": "Volatility Foundations"
+              "to": "/backtest/backtest_pipeline",
+              "label": "Backtest Pipeline"
             },
             {
-              "to": "/vega/stochastic_volatility_models",
-              "label": "Stochastic Volatility Models"
+              "to": "/backtest/performance_metrics",
+              "label": "Performance Metrics"
             },
             {
-              "to": "/vega/regime_switching_volatility_models",
-              "label": "Regime-Switching Volatility Models"
+              "to": "/backtest/transaction_costs_slippage",
+              "label": "Transaction Costs & Slippage"
             },
             {
-              "to": "/vega/volatility_surface_construction",
-              "label": "Volatility Surface Construction"
+              "to": "/backtest/turnover_rebalancing",
+              "label": "Turnover & Rebalancing"
             },
             {
-              "to": "/vega/volatility_smile_skew_analysis",
-              "label": "Volatility Smile & Skew Analysis"
+              "to": "/backtest/regime_wise_evaluation",
+              "label": "Regime-Wise Evaluation"
             },
             {
-              "to": "/vega/gaussian_process_implied_volatility",
-              "label": "Gaussian Process Implied Volatility"
+              "to": "/backtest/risk_constraint_validation",
+              "label": "Risk & Constraint Validation"
             },
             {
-              "to": "/vega/deep_volatility_models",
-              "label": "Deep Volatility Models"
+              "to": "/backtest/signal_attribution",
+              "label": "Signal Attribution"
             },
             {
-              "to": "/vega/regime_aware_pricing",
-              "label": "Regime-Aware Pricing"
+              "to": "/backtest/portfolio_diagnostics",
+              "label": "Portfolio Diagnostics"
             },
             {
-              "to": "/vega/calibration_engine",
-              "label": "Calibration Engine"
+              "to": "/backtest/stress_backtesting",
+              "label": "Stress & Scenario Backtesting"
             },
             {
-              "to": "/vega/volatility_risk_premium",
-              "label": "Volatility Risk Premium"
-            },
-            {
-              "to": "/vega/vega_risk_sensitivity_analysis",
-              "label": "Vega-Risk & Sensitivity Analysis"
-            },
-            {
-              "to": "/vega/volatility_forecasting_layer",
-              "label": "Volatility Forecasting Layer"
-            },
-            {
-              "to": "/vega/hybrid_meta_volatility_models",
-              "label": "Hybrid / Meta Volatility Models"
+              "to": "/backtest/out_of_sample_testing",
+              "label": "Out-of-Sample & Walk-Forward"
             }
           ]
         },
         {
           "type": "dropdown",
-          "to": "/hub",
-          "label": "Hub",
+          "to": "/research",
+          "label": "Research",
           "position": "left",
           "className": "center-navbar",
           "items": [
             {
-              "to": "/hub/feature_engineering",
-              "label": "Feature Engineering"
+              "to": "/research/working_papers",
+              "label": "Working Papers"
             },
             {
-              "to": "/hub/tree_based_module",
-              "label": "Tree Based Module"
+              "to": "/research/collaborative_research",
+              "label": "Collaborative Research"
             },
             {
-              "to": "/hub/integrated_module",
-              "label": "Integrated Module"
+              "to": "/research/peer_reviewed",
+              "label": "Peer-Reviewed"
             },
             {
-              "to": "/hub/cascade_modeling",
-              "label": "Cascade Modeling"
+              "to": "/research/preprints_notes",
+              "label": "Preprints & Notes"
             },
             {
-              "to": "/hub/encoder_layer",
-              "label": "Encoder Layer"
-            },
-            {
-              "to": "/hub/transformer_attention_layer",
-              "label": "Transformer / Attention Layer"
-            },
-            {
-              "to": "/hub/gan_generative",
-              "label": "GAN / Generative Layer"
-            },
-            {
-              "to": "/hub/skating_fusion_layer",
-              "label": "Skating Fusion Layer"
-            },
-            {
-              "to": "/hub/gating_layer",
-              "label": "Gating Layer"
-            },
-            {
-              "to": "/hub/meta_learning",
-              "label": "Meta-Learning"
-            },
-            {
-              "to": "/hub/auto_regime_discovery",
-              "label": "Auto Regime Discovery"
-            },
-            {
-              "to": "/hub/explainability_attribution",
-              "label": "Explainability / Attribution"
-            },
-            {
-              "to": "/hub/rl_based_layer",
-              "label": "RL-Based Layer"
-            },
-            {
-              "to": "/hub/forecast_head_decoder",
-              "label": "Forecast Head / Decoder"
+              "to": "/research/reproducibility",
+              "label": "Reproducibility & Code"
             }
           ]
         },
@@ -414,10 +366,6 @@ export default {
           "position": "left",
           "className": "center-navbar",
           "items": [
-            {
-              "to": "/community/research",
-              "label": "Research"
-            },
             {
               "to": "/community/blog",
               "label": "Blogs"

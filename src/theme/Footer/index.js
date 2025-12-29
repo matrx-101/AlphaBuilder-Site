@@ -133,10 +133,10 @@ export default function Footer() {
               Community
             </h4>
             <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-              <li><Link to="/community/research" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Research</Link></li>
               <li><Link to="/community/blog" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Blogs</Link></li>
               <li><Link to="/community/status" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Status</Link></li>
               <li><Link to="/community/about" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>About</Link></li>
+              <li><Link to="/community/learn_more" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Learn</Link></li>
               <li><Link to="/community/contact" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Contact</Link></li>
             </ul>
           </div>
@@ -159,8 +159,8 @@ export default function Footer() {
               <li><Link to="/signals" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Signal Lab</Link></li>
               <li><Link to="/risk" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Risk Engine</Link></li>
               <li><Link to="/optimizer" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Optimizer</Link></li>
-              <li><Link to="/vega" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Vega Studio</Link></li>
-              <li><Link to="/hub" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Model Hub</Link></li>
+              <li><Link to="/backtest" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Backtest</Link></li>
+              <li><Link to="/research" style={{ color: 'var(--ifm-pcard-color)', fontSize: '0.9rem' }}>Research</Link></li>
             </ul>
           </div>
 

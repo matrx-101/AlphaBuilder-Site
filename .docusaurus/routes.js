@@ -3,6 +3,11 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/backtest',
+    component: ComponentCreator('/backtest', 'b0a'),
+    exact: true
+  },
+  {
     path: '/community/about',
     component: ComponentCreator('/community/about', '4df'),
     exact: true
@@ -23,11 +28,6 @@ export default [
     exact: true
   },
   {
-    path: '/community/research',
-    component: ComponentCreator('/community/research', '5f8'),
-    exact: true
-  },
-  {
     path: '/community/status',
     component: ComponentCreator('/community/status', '4db'),
     exact: true
@@ -35,81 +35,6 @@ export default [
   {
     path: '/dashboards/BigInteractiveIVSDashboard',
     component: ComponentCreator('/dashboards/BigInteractiveIVSDashboard', 'bba'),
-    exact: true
-  },
-  {
-    path: '/hub',
-    component: ComponentCreator('/hub', 'f69'),
-    exact: true
-  },
-  {
-    path: '/hub/auto_regime_discovery',
-    component: ComponentCreator('/hub/auto_regime_discovery', '4b9'),
-    exact: true
-  },
-  {
-    path: '/hub/cascade_modeling',
-    component: ComponentCreator('/hub/cascade_modeling', '080'),
-    exact: true
-  },
-  {
-    path: '/hub/encoder_layer',
-    component: ComponentCreator('/hub/encoder_layer', '4b8'),
-    exact: true
-  },
-  {
-    path: '/hub/explainability_attribution',
-    component: ComponentCreator('/hub/explainability_attribution', 'a84'),
-    exact: true
-  },
-  {
-    path: '/hub/feature_engineering',
-    component: ComponentCreator('/hub/feature_engineering', 'b23'),
-    exact: true
-  },
-  {
-    path: '/hub/forecast_head_decoder',
-    component: ComponentCreator('/hub/forecast_head_decoder', '85c'),
-    exact: true
-  },
-  {
-    path: '/hub/gan_generative',
-    component: ComponentCreator('/hub/gan_generative', '5b8'),
-    exact: true
-  },
-  {
-    path: '/hub/gating_layer',
-    component: ComponentCreator('/hub/gating_layer', '87a'),
-    exact: true
-  },
-  {
-    path: '/hub/integrated_module',
-    component: ComponentCreator('/hub/integrated_module', 'e0e'),
-    exact: true
-  },
-  {
-    path: '/hub/meta_learning',
-    component: ComponentCreator('/hub/meta_learning', 'ede'),
-    exact: true
-  },
-  {
-    path: '/hub/rl_based_layer',
-    component: ComponentCreator('/hub/rl_based_layer', '23e'),
-    exact: true
-  },
-  {
-    path: '/hub/skating_fusion_layer',
-    component: ComponentCreator('/hub/skating_fusion_layer', '92a'),
-    exact: true
-  },
-  {
-    path: '/hub/transformer_attention_layer',
-    component: ComponentCreator('/hub/transformer_attention_layer', '816'),
-    exact: true
-  },
-  {
-    path: '/hub/tree_based_module',
-    component: ComponentCreator('/hub/tree_based_module', 'de2'),
     exact: true
   },
   {
@@ -195,6 +120,16 @@ export default [
   {
     path: '/optimizer/scenario_stress_aware_optimization',
     component: ComponentCreator('/optimizer/scenario_stress_aware_optimization', '98e'),
+    exact: true
+  },
+  {
+    path: '/research',
+    component: ComponentCreator('/research', 'a8a'),
+    exact: true
+  },
+  {
+    path: '/research/working_papers',
+    component: ComponentCreator('/research/working_papers', 'cc8'),
     exact: true
   },
   {
@@ -345,81 +280,6 @@ export default [
   {
     path: '/signals/volatility_garch_signals',
     component: ComponentCreator('/signals/volatility_garch_signals', '32c'),
-    exact: true
-  },
-  {
-    path: '/vega',
-    component: ComponentCreator('/vega', 'ac4'),
-    exact: true
-  },
-  {
-    path: '/vega/calibration_engine',
-    component: ComponentCreator('/vega/calibration_engine', 'df2'),
-    exact: true
-  },
-  {
-    path: '/vega/dashboards/notebook_1',
-    component: ComponentCreator('/vega/dashboards/notebook_1', '6cb'),
-    exact: true
-  },
-  {
-    path: '/vega/deep_volatility_models',
-    component: ComponentCreator('/vega/deep_volatility_models', '5af'),
-    exact: true
-  },
-  {
-    path: '/vega/gaussian_process_implied_volatility',
-    component: ComponentCreator('/vega/gaussian_process_implied_volatility', '534'),
-    exact: true
-  },
-  {
-    path: '/vega/hybrid_meta_volatility_models',
-    component: ComponentCreator('/vega/hybrid_meta_volatility_models', 'a9d'),
-    exact: true
-  },
-  {
-    path: '/vega/regime_aware_pricing',
-    component: ComponentCreator('/vega/regime_aware_pricing', 'cad'),
-    exact: true
-  },
-  {
-    path: '/vega/regime_switching_volatility_models',
-    component: ComponentCreator('/vega/regime_switching_volatility_models', 'aec'),
-    exact: true
-  },
-  {
-    path: '/vega/stochastic_volatility_models',
-    component: ComponentCreator('/vega/stochastic_volatility_models', '5f2'),
-    exact: true
-  },
-  {
-    path: '/vega/vega_risk_sensitivity_analysis',
-    component: ComponentCreator('/vega/vega_risk_sensitivity_analysis', '28d'),
-    exact: true
-  },
-  {
-    path: '/vega/volatility_forecasting_layer',
-    component: ComponentCreator('/vega/volatility_forecasting_layer', 'f8b'),
-    exact: true
-  },
-  {
-    path: '/vega/volatility_foundations',
-    component: ComponentCreator('/vega/volatility_foundations', 'a71'),
-    exact: true
-  },
-  {
-    path: '/vega/volatility_risk_premium',
-    component: ComponentCreator('/vega/volatility_risk_premium', '6c6'),
-    exact: true
-  },
-  {
-    path: '/vega/volatility_smile_skew_analysis',
-    component: ComponentCreator('/vega/volatility_smile_skew_analysis', '0fc'),
-    exact: true
-  },
-  {
-    path: '/vega/volatility_surface_construction',
-    component: ComponentCreator('/vega/volatility_surface_construction', 'f4f'),
     exact: true
   },
   {

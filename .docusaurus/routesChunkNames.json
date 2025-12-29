@@ -1,4 +1,11 @@
 {
+  "/backtest-b0a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "04abcf6e"
+  },
   "/community/about-4df": {
     "__comp": "a93e88bf",
     "__context": {
@@ -27,13 +34,6 @@
     },
     "config": "5e9f5e1a"
   },
-  "/community/research-5f8": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "4f870c12"
-  },
   "/community/status-4db": {
     "__comp": "1f391b9e",
     "__context": {
@@ -47,111 +47,6 @@
       "plugin": "a7456010"
     },
     "config": "5e9f5e1a"
-  },
-  "/hub-f69": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "ed2a202d"
-  },
-  "/hub/auto_regime_discovery-4b9": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "4b9650ce"
-  },
-  "/hub/cascade_modeling-080": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "41ecc089"
-  },
-  "/hub/encoder_layer-4b8": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "ab485847"
-  },
-  "/hub/explainability_attribution-a84": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "d43e603e"
-  },
-  "/hub/feature_engineering-b23": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "d5c5e2d2"
-  },
-  "/hub/forecast_head_decoder-85c": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "fa82dba7"
-  },
-  "/hub/gan_generative-5b8": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "632fb6e2"
-  },
-  "/hub/gating_layer-87a": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "f27070ce"
-  },
-  "/hub/integrated_module-e0e": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "d03e8237"
-  },
-  "/hub/meta_learning-ede": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "0332ba6a"
-  },
-  "/hub/rl_based_layer-23e": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "324ade72"
-  },
-  "/hub/skating_fusion_layer-92a": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "9abd96e2"
-  },
-  "/hub/transformer_attention_layer-816": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "442daa53"
-  },
-  "/hub/tree_based_module-de2": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "f60446a4"
   },
   "/optimizer-34a": {
     "__comp": "1acac086",
@@ -271,6 +166,20 @@
       "plugin": "a7456010"
     },
     "content": "59237b25"
+  },
+  "/research-a8a": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "52ba7e02"
+  },
+  "/research/working_papers-cc8": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "0e21ac80"
   },
   "/risk-fce": {
     "__comp": "de6e68a1",
@@ -480,111 +389,6 @@
       "plugin": "a7456010"
     },
     "content": "eec0d852"
-  },
-  "/vega-ac4": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "65ed7f0a"
-  },
-  "/vega/calibration_engine-df2": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "1c0b2036"
-  },
-  "/vega/dashboards/notebook_1-6cb": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "a1457c20"
-  },
-  "/vega/deep_volatility_models-5af": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "e903556b"
-  },
-  "/vega/gaussian_process_implied_volatility-534": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "95e98df6"
-  },
-  "/vega/hybrid_meta_volatility_models-a9d": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "51272fc4"
-  },
-  "/vega/regime_aware_pricing-cad": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "dd210fe8"
-  },
-  "/vega/regime_switching_volatility_models-aec": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "d103ea19"
-  },
-  "/vega/stochastic_volatility_models-5f2": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "766ae777"
-  },
-  "/vega/vega_risk_sensitivity_analysis-28d": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "84dc676a"
-  },
-  "/vega/volatility_forecasting_layer-f8b": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "039efe77"
-  },
-  "/vega/volatility_foundations-a71": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "be7fa347"
-  },
-  "/vega/volatility_risk_premium-6c6": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "d089cd20"
-  },
-  "/vega/volatility_smile_skew_analysis-0fc": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "b2139376"
-  },
-  "/vega/volatility_surface_construction-f4f": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "3e760a08"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",

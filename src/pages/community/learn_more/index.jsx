@@ -19,17 +19,17 @@ const toc = [
       { id: 'optimization-methods', value: 'Optimization Methods' },
     ],
    },
-  { id: 'vega', value: 'Vega-Studio',
+  { id: 'backtest', value: 'Backtest',
     children: [
       { id: 'core-components', value: 'Core Components' },
     ],
    },
-  { id: 'hub', value: 'Model-Hub',
+  { id: 'research', value: 'Research',
     children: [
       { id: 'model-categories', value: 'Model Categories' },
     ],
    },
-  { id: 'system', value: 'Alpha-System',
+  { id: 'app', value: 'Application',
     children: [
       { id: 'core-functional-layers', value: 'Core Functional Layers' },
     ],
@@ -153,146 +153,118 @@ export default function FrameworksPage() {
       </>
     ),
 
-    vega: (
-      <>
-        <h1 id="vega">Vega</h1>
-        <p>
-          <strong>AlphaBuilder-Vega</strong> is the volatility intelligence and derivative
-          pricing layer of the AlphaBuilder ecosystem. It bridges theoretical and
-          data-driven volatility modeling — spanning classical stochastic volatility,
-          regime-switching dynamics, Gaussian process inference, and deep neural
-          volatility surfaces. Vega serves as the research backbone for implied
-          volatility estimation, volatility surface construction, and regime-aware
-          derivative pricing.
-        </p>
+    // vega: (
+    //   <>
+    //     <h1 id="vega">Vega</h1>
+    //     <p>
+    //       <strong>AlphaBuilder-Vega</strong> is the volatility intelligence and derivative
+    //       pricing layer of the AlphaBuilder ecosystem. It bridges theoretical and
+    //       data-driven volatility modeling — spanning classical stochastic volatility,
+    //       regime-switching dynamics, Gaussian process inference, and deep neural
+    //       volatility surfaces. Vega serves as the research backbone for implied
+    //       volatility estimation, volatility surface construction, and regime-aware
+    //       derivative pricing.
+    //     </p>
 
-        <h2 id="vega-components">Core Volatility Frameworks</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Component</th>
-              <th>Description / Notes</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Volatility Foundations</td>
-              <td>Statistical definitions, realized & implied volatility, and microstructure considerations</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Stochastic Volatility Models</td>
-              <td>Heston, SABR, Bates, and fractional volatility formulations</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Regime-Switching Volatility</td>
-              <td>Markov-modulated volatility & hidden state inference for regime transitions</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Volatility Surface Construction</td>
-              <td>Smile & skew modeling using spline, SVI, or arbitrage-free constraints</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Gaussian Process Implied Volatility</td>
-              <td>Non-parametric IV estimation via GP regression and kernel selection</td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>Deep Volatility Models</td>
-              <td>Neural SDEs, LSTMs, and transformers trained on volatility series</td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Regime-Aware Pricing</td>
-              <td>Derivative valuation under regime-dependent volatility and drift parameters</td>
-            </tr>
-            <tr>
-              <td>8</td>
-              <td>Calibration Engine</td>
-              <td>Optimization of model parameters using MLE, Bayesian, or meta-heuristic methods</td>
-            </tr>
-            <tr>
-              <td>9</td>
-              <td>Volatility Risk Premium</td>
-              <td>Estimation of expected vs implied volatility differentials across assets</td>
-            </tr>
-            <tr>
-              <td>10</td>
-              <td>Vega-Risk & Sensitivity</td>
-              <td>Greek sensitivities (Vega, Vomma, Vanna) and volatility-shock risk attribution</td>
-            </tr>
-            <tr>
-              <td>11</td>
-              <td>Volatility Forecasting Layer</td>
-              <td>Short- and long-horizon volatility forecasting pipelines with ensemble blending</td>
-            </tr>
-            <tr>
-              <td>12</td>
-              <td>Hybrid / Meta Volatility Models</td>
-              <td>Combining stochastic, deep, and GP models into adaptive hybrid frameworks</td>
-            </tr>
-          </tbody>
-        </table>
-      </>
-    ),
+    //     <h2 id="vega-components">Core Volatility Frameworks</h2>
+    //     <table>
+    //       <thead>
+    //         <tr>
+    //           <th>#</th>
+    //           <th>Component</th>
+    //           <th>Description / Notes</th>
+    //         </tr>
+    //       </thead>
+    //       <tbody>
+    //         <tr>
+    //           <td>1</td>
+    //           <td>Volatility Foundations</td>
+    //           <td>Statistical definitions, realized & implied volatility, and microstructure considerations</td>
+    //         </tr>
+    //         <tr>
+    //           <td>2</td>
+    //           <td>Stochastic Volatility Models</td>
+    //           <td>Heston, SABR, Bates, and fractional volatility formulations</td>
+    //         </tr>
+    //         <tr>
+    //           <td>3</td>
+    //           <td>Regime-Switching Volatility</td>
+    //           <td>Markov-modulated volatility & hidden state inference for regime transitions</td>
+    //         </tr>
+    //         <tr>
+    //           <td>4</td>
+    //           <td>Volatility Surface Construction</td>
+    //           <td>Smile & skew modeling using spline, SVI, or arbitrage-free constraints</td>
+    //         </tr>
+    //         <tr>
+    //           <td>5</td>
+    //           <td>Gaussian Process Implied Volatility</td>
+    //           <td>Non-parametric IV estimation via GP regression and kernel selection</td>
+    //         </tr>
+    //         <tr>
+    //           <td>6</td>
+    //           <td>Deep Volatility Models</td>
+    //           <td>Neural SDEs, LSTMs, and transformers trained on volatility series</td>
+    //         </tr>
+    //         <tr>
+    //           <td>7</td>
+    //           <td>Regime-Aware Pricing</td>
+    //           <td>Derivative valuation under regime-dependent volatility and drift parameters</td>
+    //         </tr>
+    //         <tr>
+    //           <td>8</td>
+    //           <td>Calibration Engine</td>
+    //           <td>Optimization of model parameters using MLE, Bayesian, or meta-heuristic methods</td>
+    //         </tr>
+    //         <tr>
+    //           <td>9</td>
+    //           <td>Volatility Risk Premium</td>
+    //           <td>Estimation of expected vs implied volatility differentials across assets</td>
+    //         </tr>
+    //         <tr>
+    //           <td>10</td>
+    //           <td>Vega-Risk & Sensitivity</td>
+    //           <td>Greek sensitivities (Vega, Vomma, Vanna) and volatility-shock risk attribution</td>
+    //         </tr>
+    //         <tr>
+    //           <td>11</td>
+    //           <td>Volatility Forecasting Layer</td>
+    //           <td>Short- and long-horizon volatility forecasting pipelines with ensemble blending</td>
+    //         </tr>
+    //         <tr>
+    //           <td>12</td>
+    //           <td>Hybrid / Meta Volatility Models</td>
+    //           <td>Combining stochastic, deep, and GP models into adaptive hybrid frameworks</td>
+    //         </tr>
+    //       </tbody>
+    //     </table>
+    //   </>
+    // ),
 
-    hub: (
-      <>
-        <h1 id="hub">Model-Hub</h1>
-        <p>
-          <strong>AlphaBuilder-Hub</strong> acts as the model repository and orchestration layer,
-          hosting trained models on Hugging Face and providing APIs for distributed inference,
-          versioning, and multi-horizon forecasting pipelines.
-        </p>
+    // hub: (
+    //   <>
+    //     <h1 id="hub">Model-Hub</h1>
+    //     <p>
+    //       <strong>AlphaBuilder-Hub</strong> acts as the model repository and orchestration layer,
+    //       hosting trained models on Hugging Face and providing APIs for distributed inference,
+    //       versioning, and multi-horizon forecasting pipelines.
+    //     </p>
 
-        <h2 id= 'model-categories'>Model Categories</h2>
-        <table>
-          <thead><tr><th>Category</th><th>Example Models</th><th>Purpose / Notes</th></tr></thead>
-          <tbody>
-            <tr><td>Encoder–Decoder</td><td>LSTM, BiLSTM, GRU-Seq2Seq</td><td>Sequential dependency modeling</td></tr>
-            <tr><td>Transformer Variants</td><td>Transformer, Informer, Autoformer, PatchTST</td><td>Attention-based multi-horizon forecasting</td></tr>
-            <tr><td>GAN / Generative Models</td><td>TimeGAN, ForGAN, RegGAN</td><td>Scenario generation, data augmentation</td></tr>
-            <tr><td>Integrated RNN Modules</td><td>LSTM, ConvLSTM, GRU</td><td>Trend and momentum modeling</td></tr>
-            <tr><td>Cascade Models</td><td>N-BEATS, FCPM, DeepTCN</td><td>Multi-scale hierarchical decomposition</td></tr>
-            <tr><td>Tree / Ensemble Models</td><td>XGBoost, LightGBM, CatBoost</td><td>Feature-driven, interpretable forecasting</td></tr>
-            <tr><td>RL Forecasting</td><td>PPO, SAC, DDPG</td><td>Adaptive regime-aware forecast control</td></tr>
-          </tbody>
-        </table>
-      </>
-    ),
-
-    system: (
-      <>
-        <h1 id="system">System</h1>
-        <p>
-          <strong>AlphaBuilder-System</strong> is the integrative execution framework that
-          connects all modules — Signal, Risk, Vega, Optimizer, and Hub — into a unified
-          end-to-end research and trading workflow.
-        </p>
-
-        <h2 id='core-functional-layers'>Core Functional Layers</h2>
-        <ul>
-          <li><strong>Pipeline Orchestration:</strong> Automates flow from Signal → Risk → Vega → Optimizer.</li>
-          <li><strong>Backtesting Engine:</strong> Evaluate strategies under historical and simulated regimes.</li>
-          <li><strong>Live Execution Layer:</strong> Real-time signal ingestion, portfolio updates, and risk monitoring.</li>
-          <li><strong>Experiment Management:</strong> Run, compare, and track multiple experiments reproducibly.</li>
-          <li><strong>Visualization Layer:</strong> Interactive dashboards for regime maps, allocations, and performance.</li>
-          <li><strong>Integration Layer:</strong> API endpoints for Python, R, and web-based research clients.</li>
-          <li><strong>Learning Loop:</strong> Continuous retraining and re-optimization based on feedback from Hub models.</li>
-        </ul>
-
-        <p>
-          This system represents the <strong>operational core of AlphaBuilder</strong> —
-          a continuously learning environment for adaptive quantitative research and
-          real-world portfolio experimentation.
-        </p>
-      </>
-    ),
+    //     <h2 id= 'model-categories'>Model Categories</h2>
+    //     <table>
+    //       <thead><tr><th>Category</th><th>Example Models</th><th>Purpose / Notes</th></tr></thead>
+    //       <tbody>
+    //         <tr><td>Encoder–Decoder</td><td>LSTM, BiLSTM, GRU-Seq2Seq</td><td>Sequential dependency modeling</td></tr>
+    //         <tr><td>Transformer Variants</td><td>Transformer, Informer, Autoformer, PatchTST</td><td>Attention-based multi-horizon forecasting</td></tr>
+    //         <tr><td>GAN / Generative Models</td><td>TimeGAN, ForGAN, RegGAN</td><td>Scenario generation, data augmentation</td></tr>
+    //         <tr><td>Integrated RNN Modules</td><td>LSTM, ConvLSTM, GRU</td><td>Trend and momentum modeling</td></tr>
+    //         <tr><td>Cascade Models</td><td>N-BEATS, FCPM, DeepTCN</td><td>Multi-scale hierarchical decomposition</td></tr>
+    //         <tr><td>Tree / Ensemble Models</td><td>XGBoost, LightGBM, CatBoost</td><td>Feature-driven, interpretable forecasting</td></tr>
+    //         <tr><td>RL Forecasting</td><td>PPO, SAC, DDPG</td><td>Adaptive regime-aware forecast control</td></tr>
+    //       </tbody>
+    //     </table>
+    //   </>
+    // ),
   };
 
   return (
